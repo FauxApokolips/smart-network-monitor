@@ -1,0 +1,9 @@
+streamlit
+pandas
+altair
+pydeck
+scikit-learn
+pyshark
+geoip2
+maxminddb
+streamlit-autorefresh

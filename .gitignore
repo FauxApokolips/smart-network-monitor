@@ -1,0 +1,10 @@
+# Ignore database
+packets.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+snm_env/
