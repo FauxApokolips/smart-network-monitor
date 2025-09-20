@@ -25,3 +25,27 @@ A lightweight real-time **network monitoring system** with:
 ```bash
 git clone https://github.com/<YOUR_USERNAME>/smart-network-monitor.git
 cd smart-network-monitor
+
+```
+### 2. Create virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+
+### Structure
+``` bash
+smart-network-monitor/
+│── snm_capture.py       # Packet capture + enrichment
+│── snm_dashboard.py     # Streamlit dashboard
+│── requirements.txt     # Dependencies
+│── packets.db           # SQLite DB (auto-generated)
+│── README.md            # Project documentation
+│── .gitignore           # Ignore db, venv, cache
+
+```
+
+Install Wireshark/Tshark
+```bash
+tshark -v
